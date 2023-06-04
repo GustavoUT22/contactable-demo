@@ -9,7 +9,7 @@ import STORE from "./src/store.js";
 
 async function init() {
   const token = sessionStorage.getItem(tokenKey)
-  // console.log(token)
+
   if (!token) return DOMHandler.load(LoginPage)
 
     try {
