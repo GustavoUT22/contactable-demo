@@ -1,0 +1,26 @@
+.footer {
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; 
+  border-top: 1px solid #ccc;
+  gap: 10px;
+  background-color: var(--gray-100);
+}
+
+.footer a {
+    margin-left: 3em;
+    color:#2962FF
+  }
+
+.add-contact-icon {
+  color: #000000 !important;
+  font-size: 30px;
+  border: 1px solid #E8EAED;
+  border-radius: 50%;
+  background: #E8EAED;
+}

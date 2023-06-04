@@ -1,0 +1,52 @@
+.contact {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0px;
+  }
+  .contact:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Cambia estos valores según el efecto de sombra deseado */
+  }
+
+  .contact:active {
+    background-color: var(--gray-100)
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    /* margin-bottom: 25px; */
+  }
+  
+  .contact-info img {
+    margin-right: 20px; /* Adjust the value to increase or decrease the space */
+    width: 50px; /* Adjust the value to make the image smaller */
+    height: auto;
+  }
+  
+  .center-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .favorite-contact {
+    background-color: var(--gray-100);
+  } */
+
+  .contact-detail {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .flex-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
